@@ -1,4 +1,14 @@
 <?php
+    /* O código abaixo foi desenvolvido na vídeo aula, na qual eu encino com usar a Api dos correios, para calcular o frete de um determinado produto
+     * Video: https://www.youtube.com/watch?v=61-klmvyUvA
+     * www.scriptmundo.com
+     * = Este código foi atualizado (06/02/2019) , portando algumas coisas estão diferentes da video
+     * Agradeço a todos que assistiram o vídeo
+     * Gostaria de pedir para que deizasse uma "STAR" neste repositorio
+     * Obrigado
+     */
+
+
     $cep_origem = "85930000";     // Seu CEP , ou CEP da Loja
     $cep_destino = $_POST['cep']; // CEP do cliente, que irá vim via POST
 
